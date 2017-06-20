@@ -1,0 +1,53 @@
+{{ partial "head" .}}
+<script src='https://www.google.com/recaptcha/api.js'></script>
+{{ partial "header" .}}
+<div id="fh5co-contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 animate-box">
+                <div class="fh5co-contact-info">
+                    <h3>Contact Information</h3>
+                    <ul>
+                        <li class="address">{{ $.Param "company.address" }}</li>
+                        <li class="phone"><a href="tel:// {{ index ($.Param "company.phone") 0}}"> {{ index ($.Param "company.phone") 0}}, {{ index ($.Param "company.phone") 1}}</a></li>
+                        <li class="email"><a href="mailto:{{ $.Param "company.email" }}">{{ $.Param "company.email" }}</a></li>
+                        <li class="url"><a href="http://freehtml5.co">{{ $.Param "company.site" }}</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            {{ if eq (.Param "ty") "true" }}
+            <div class="col-md-6 animate-box formbox">
+                <h3>{{.Content}}</h3>
+            </div>
+            {{ else }}
+            <div class="col-md-6 animate-box formbox">
+                <h3>Get In Touch</h3>
+                <form id="form" method="POST" action="https://formspree.io/suparshvadevelopers@gmail.com">
+                    <div class="row form-group">
+                        <div class="col-md-6">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" id="mobile" name="mobile" class="form-control" placeholder="Your Mobile">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <textarea name="message" id="query" cols="30" rows="10" class="form-control" placeholder="Your Query?"></textarea>
+                        </div>
+                    </div>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <div class="form-group">
+                        <input type="submit" value="Send Message" class="btn btn-primary">
+                    </div>
+                    <input type="hidden" name="_next" value="http://localhost:1313/thankyou" />
+                    <input type="hidden" name="_subject" value="Query | Suparshvadevelopers.com" />
+                    <!-- input type="hidden" name="_cc" value="atuljain10595@gmail.com" /-->
+                </form>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ partial "footer" .}}
