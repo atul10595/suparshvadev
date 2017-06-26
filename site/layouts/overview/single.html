@@ -1,0 +1,50 @@
+{{ partial "head" .}}
+{{ partial "header" .}}
+<aside id="fh5co-hero" class="shorter">
+    <div class="flexslider">
+        <ul class="slides">
+            <li class="edit_flex" style="background-image: url(/img/{{ .Params.img }});">
+                <div class="overlay-gradient"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center slider-text">
+                            <div class="slider-text-inner">
+                                <h1 class="heading-section">{{ .Title }}</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</aside>
+<div id="fh5co-about">
+    <div class="container">
+        <div class="col-md-3 btn-group-vertical menu-vertical" role="group">
+            <div class="col-md-12">
+                <a href="/overview" class="btn-side-menu {{ if eq .Params.tag "overview" }}active{{ end }}">Overview</a>
+            </div>
+            <div class="col-md-12">
+                <a href="/philosophy" class="btn-side-menu {{ if eq .Params.tag "philosophy" }}active{{end}}">Philosophy</a>
+            </div>
+            <div class="col-md-12">
+                <a href="/vision-and-mission" class="btn-side-menu {{ if eq .Params.tag "vision-and-mission" }}active{{end}}">Vision & Mission</a>
+            </div>
+            <div class="col-md-12">
+                <a href="/quality-policy" class="btn-side-menu {{ if eq .Params.tag "quality-policy" }}active{{end}}">Quality Policy</a>
+            </div>
+            <div class="col-md-12">
+                <a href="/environment-stewardship" class="btn-side-menu {{ if eq .Params.tag "environment-stewardship" }}active{{end}}">Environment Stewardship</a>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <h2>{{.Title}}</h2>
+            <hr size="2">
+            <p>{{ .Content }}</p>
+        </div>
+        <!-- <div class="col-md-6">
+            <img class="img-responsive" src="/img/img_bg_2.jpg" alt="Free HTML5 Bootstrap Template">
+        </div> -->
+    </div>
+</div>
+{{ partial "footer" .}}

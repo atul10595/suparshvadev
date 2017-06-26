@@ -1,5 +1,65 @@
-{{ partial "header" . }}
-
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
-
+{{ partial "head" . }}
+<div class="fh5co-loader"></div>
+<div id="page">
+    {{ partial "header" .}}
+    <aside id="fh5co-hero">
+        <div class="flexslider">
+            <ul class="slides">
+                <div class="overlay"></div> 
+                <li style="background-image: url(/img/banner_1.jpg);">
+                </li>
+                <li style="background-image: url(/img/banner_2.jpg);">
+                </li>
+                <li style="background-image: url(/img/banner_3.jpg);">
+                </li>
+            </ul>
+        </div>
+    </aside>
+</div>
+<div id="fh5co-pricing" class="">
+    <div class="container">
+        <div class="col-md-12 animate-box formbox">
+            <h2 style="text-align:center;">CONTACT US TODAY</h2>
+            <form id="form" method="POST" action="https://formspree.io/suparshvadevelopers@gmail.com">
+                <div class="row form-group">
+                    <div class="col-md-6">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" id="mobile" name="mobile" class="form-control" placeholder="Your Mobile">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <textarea name="message" id="query" cols="30" rows="10" class="form-control" placeholder="Your Query?"></textarea>
+                    </div>
+                </div>
+                <input type="text" name="_gotcha" style="display:none" />
+                <div class="form-group">
+                    <input type="submit" value="Send Message" class="btn btn-primary">
+                </div>
+                <input type="hidden" name="_next" value="http://localhost:1313/thankyou" />
+                <input type="hidden" name="_subject" value="Query | Suparshvadevelopers.com" />
+                <!-- input type="hidden" name="_cc" value="atuljain10595@gmail.com" /-->
+            </form>
+        </div>
+    </div>
+</div>
+<div id="fh5co-course-categories" class="fh5co-bg-section">
+    <div class="container">
+        <div class="row animate-box">
+            <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                <h2>Loan Calculator</h2>
+                <p>Calculate your EMIs to your Dream Home</p>
+            </div>
+            <div class="col-md-12" id="ecww-widgetwrapper" style="min-width:250px;width:100%;">
+                <div id="ecww-widget" style="position:relative;padding-top:0;padding-bottom:280px;height:0;overflow:hidden;"></div>
+            </div>
+        </div>
+    </div>
+    <hr class="line" />
+</div>
+<!-- EMI Calculator Widget START -->
+<script src="/js/emicalc-loader.min.js" type="text/javascript"></script>
+<!-- EMI Calculator Widget END -->
 {{ partial "footer" . }}
