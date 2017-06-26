@@ -9,7 +9,7 @@
                     <h3>Contact Information</h3>
                     <ul>
                         <li class="address">{{ $.Param "company.address" }}</li>
-                        <li class="phone"><a href="tel:// {{ index ($.Param "company.phone") 0}}"> {{ index ($.Param "company.phone") 0}}, {{ index ($.Param "company.phone") 1}}</a></li>
+                        <li class="phone"><a href="tel:// {{ $.Param "company.phone1" }}"> {{ $.Param "company.phone1" }}, {{ $.Param "company.phone2" }}</a></li>
                         <li class="email"><a href="mailto:{{ $.Param "company.email" }}">{{ $.Param "company.email" }}</a></li>
                         <li class="url"><a href="http://freehtml5.co">{{ $.Param "company.site" }}</a></li>
                     </ul>
