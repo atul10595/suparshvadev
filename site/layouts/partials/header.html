@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-xs-12 text-right">
                     <p class="site">{{ $.Param "company.email" }}</p>
-                    <p class="num">Call: {{ (index ($.Param "company.phone") 0) }}, {{ (index ($.Param "company.phone") 1) }}</p>
+                    <p class="num">Call: {{ $.Param "company.phone1" }}, {{ $.Param "company.phone2" }}</p>
                     {{ partial "social" .}}
                 </div>
             </div>
