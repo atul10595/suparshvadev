@@ -3,6 +3,7 @@ title = "Vision & Mission"
 slug = "../vision-and-mission"
 url = "/vision-and-mission"
 tag = "vision-and-mission"
+img = "vision.jpeg"
 +++
 
 ### Vision

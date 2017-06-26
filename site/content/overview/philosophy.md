@@ -3,7 +3,7 @@ title = "Philosophy"
 slug = "../philosophy"
 url = "/philosophy"
 tag = "philosophy"
-flex = "banner_3"
+img = "philosophy.jpeg"
 +++
 
 ### Integrity

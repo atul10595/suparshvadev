@@ -3,6 +3,7 @@ title = "Investments"
 slug = "../investments"
 url = "/investments"
 tag = "investments"
+img = "investments.jpeg"
 +++
 
 ### Managing Your Investment

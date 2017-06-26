@@ -3,6 +3,7 @@ title = "Commercial"
 slug = "../commercial"
 url = "/commercial"
 tag = "commercial"
+img = "commercial.jpeg"
 +++
 
 ### Mantra In Business for Business

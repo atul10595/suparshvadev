@@ -3,6 +3,7 @@ title = "Residential"
 slug = "../residential"
 url = "/residential"
 tag = "residential"
+img = "residential.jpeg"
 +++
 
 ### Turning Dreams Into Reality

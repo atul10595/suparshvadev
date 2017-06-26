@@ -3,6 +3,7 @@ title = "Leasing & Rental"
 slug = "../leasing-and-rental"
 url = "/leasing-and-rental"
 tag = "leasing-and-rental"
+img = "rental.jpg"
 +++
 
 Most individuals lease out property for viable and economic solutions.  

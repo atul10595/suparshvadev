@@ -333,9 +333,9 @@ figure {
 }
 
 #fh5co-hero {
-    min-height: 630px;
-    height: 630px;
-    background: #fff url(../images/loader.gif) no-repeat center center;
+    min-height: 530px;
+    height: 530px;
+    background: #fff url(../img/loader.gif) no-repeat center center;
 }
 
 #fh5co-hero .btn {
@@ -361,20 +361,20 @@ figure {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    min-height: 630px;
-    height: 630px;
+    min-height: 530px;
+    height: 530px;
     position: relative;
 }
 
 #fh5co-hero .flexslider .slider-text {
     display: table;
     opacity: 0;
-    min-height: 630px;
-    height: 630px;
+    min-height: 530px;
+    height: 530px;
     z-index: 9;
 }
 
-#fh5co-hero .flexslider .slides li:after {
+.flexslider .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -383,6 +383,18 @@ figure {
     content: '';
     background: rgba(0, 0, 0, 0.4);
     z-index: 1;
+
+}
+
+#fh5co-hero .flexslider .slides li:after {
+    /*position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;*/
 }
 
 #fh5co-hero .flexslider .flex-control-nav {
@@ -1883,7 +1895,7 @@ figure {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url(../images/loader.gif) center no-repeat #fff;
+    background: url(../img/loader.gif) center no-repeat #fff;
 }
 
 .row-padded-mb {
@@ -1933,7 +1945,7 @@ figure {
     min-height: 240px;
     height: 240px;
     overflow: hidden;
-    background: #fff url(../images/loader.gif) no-repeat center center;
+    background: #fff url(../img/loader.gif) no-repeat center center;
     text-align: center;
     vertical-align: middle;
 }
@@ -2045,6 +2057,10 @@ td.specshead2 {
 
 #msg {
     display: hidden;
+}
+
+.edit_flex {
+    background-position-y: -255px !important;
 }
 
 
