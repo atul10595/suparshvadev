@@ -1,6 +1,7 @@
 baseurl : "/"
+languageCode : "en-us"
 title : "Suparshva Developers Ltd."
-url: "localhost:1313"  
+url: "suparshvadevelopers"  
 author:
     name : "Atul Jain"
     site_name : "atulj.com"
@@ -9,7 +10,10 @@ params:
     year: 2017
     company:
         name: "Suparshva Developers Ltd."
-        phone : ["+91-9310036159", "+91-9999803268", "+91-9899615888"]
+        phone :
+            - "+91-9310036159"
+            - "+91-9999803268"
+            - "+91-9899615888"
         email: "suparshvadevelopers@gmail.com"
         site: "www.suparshvadevelopers.com"
         address : "Z-7(SH), Loha Mandi, Naraina, New Delhi - 110028"
