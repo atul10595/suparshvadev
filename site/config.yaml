@@ -1,18 +1,18 @@
 baseurl : "/"
 languageCode : "en-us"
 title : "Suparshva Developers Ltd."
-url: "suparshvadevelopers"  
-author:
+url : "suparshvadevelopers"  
+author :
     name : "Atul Jain"
     site_name : "atulj.com"
     site_url : "http://atulj.com"
-params:
-    year: 2017
-    company:
-        name: "Suparshva Developers Ltd."
-        phone1: "+91-9310036159"
-        phone2: "+91-9999803268"
-        phone3: "+91-9899615888"
-        email: "suparshvadevelopers@gmail.com"
-        site: "www.suparshvadevelopers.com"
+params :
+    year : 2017
+    company :
+        name : "Suparshva Developers Ltd."
+        phone1 : "+91-9310036159"
+        phone2 : "+91-9999803268"
+        phone3 :  "+91-9899615888"
+        email : "suparshvadevelopers@gmail.com"
+        site : "www.suparshvadevelopers.com"
         address : "Z-7(SH), Loha Mandi, Naraina, New Delhi - 110028"
