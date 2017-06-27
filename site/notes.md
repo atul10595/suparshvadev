@@ -1,14 +1,14 @@
 #Tasks
 	---
 	Current
+	- /Project - Payment Plan left.
 	- SEO Meta Tags
 		- don't put SEO on unimportant links (/thankyou)
+	- make images lighter, make site lighter
 	- Push to Git
-	- Add "Book Now" flash banner below on every page
 
 	---
 	Medium
-	- /Project - Payment Plan left.
 	- Images add
 	- Font
 	- Design of tab panes and buttons
