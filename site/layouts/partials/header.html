@@ -6,8 +6,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-right">
-                    <p class="site">{{ $.Param "company.email" }}</p>
-                    <p class="num">Call: {{ $.Param "company.phone1" }}, {{ $.Param "company.phone2" }}</p>
+                    <p class="site">{{ .Site.Params.company.email }}</p>
+                    <p class="num">Call: {{ .Site.Params.company.phone1 }}, {{ .Site.Params.company.phone2 }}</p>
                     {{ partial "social" .}}
                 </div>
             </div>
