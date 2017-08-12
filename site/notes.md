@@ -1,11 +1,12 @@
 #Tasks
 	---
 	Current
-	- /Project - Payment Plan left.
+	
 	- SEO Meta Tags
 		- don't put SEO on unimportant links (/thankyou)
+	- /Project - Payment Plan left.
 	- make images lighter, make site lighter
-	- Push to Git
+	- Mobile View - find and fix bugs
 
 	---
 	Medium

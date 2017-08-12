@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2 animate-box">
             <div class="date-counter text-center">
-                <h1 class="white_cl">BOOK NOW. <span class="opac_60">PRICES RISING EVERYDAY.</span></h1>
+                <h1 class="white_cl">Book Now. <span class="opac_60">Prices Rising Everyday.</span></h1>
                 <!--                 <h3><strong>Prices rising with every passing day!</strong></h3>
  -->
                 <h3 class="btn btn-primary btn-lg btn-reg">{{ .Site.Params.company.phone1 }}, {{ .Site.Params.company.phone2 }}</h3>
@@ -88,6 +88,7 @@
 <script src="/js/simplyCountdown.js"></script>
 <!-- Main -->
 <script src="/js/main.js"></script>
+{{ template "partials/ga.html" . }}
 </body>
 
 </html>
